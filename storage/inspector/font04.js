@@ -20,6 +20,9 @@
 	box-shadow: inset  0 0 15px 2px rgba(220, 220, 220, 0.3);
   }
 
+#black01 {
+	background: black;
+}
 
   #imageName {
     background-color: rgba(17, 17, 17, 0.5);
