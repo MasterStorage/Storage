@@ -67,7 +67,7 @@ document.addEventListener('keydown', function (e) {
     DisableDevtool({
       // Optional configurations:
       url: 'https://masterinspector.github.io/Inspector/Inspector.html', // Redirect URL when devtools is detected
-      rewriteHTML: '<h1></h1>', // Replace the DOM when detected
+      rewriteHTML: '<h1 class:black01></h1>', // Replace the DOM when detected
       disableMenu: true,
       disableCopy: true,
       disablePaste: true,
