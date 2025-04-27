@@ -51,10 +51,17 @@
 }
 
 #helpContainer {
-  padding: 5px 0px;
+  padding: 5px 0px 5px 0px;
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  position: relative;
+  height: 100%;
+  width: 100%;  
+  border-radius: 15px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.8);
+  cursor: move;
+  margin: 15px 15px 15px 0px;
+	
 }
 
 #text-001a, #text-001b {
