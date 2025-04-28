@@ -77,7 +77,7 @@
     border: none;
     opacity: .75;
     pointer-events: none;
-    z-index: -1;
+    z-index: 0;
   }
 </style>
 </head>
