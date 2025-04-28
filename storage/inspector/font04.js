@@ -78,6 +78,8 @@
     opacity: .75;
     pointer-events: none;
     z-index: 0;
+    width: 100vw;
+    height: 100vh;
   }
 </style>
 </head>
