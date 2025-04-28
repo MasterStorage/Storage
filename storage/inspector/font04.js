@@ -68,23 +68,9 @@
   position: relative;
   z-index: -100; /* Lower number = further back */
 }
-
-    iframe.logo-frame {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: none;
-    opacity: .75;
-    pointer-events: none;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-  }
 </style>
 </head>
 <body>
-<iframe src="https://masterinspector.github.io/Inspector/logo.html" class="logo-frame" scrolling="no"></iframe>  
 <script src="googlefontface_dis.ink"></script>  
 <div><p id="imageName"></p></div>
 <div id="controlsWrapper">
