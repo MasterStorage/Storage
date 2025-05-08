@@ -52,32 +52,17 @@
 
 #CoffeeButton {
   background-color: #000;
-  color: #000;
-  border: 0px solid #666;
-  border-radius: 100%;
-  width: 0px;
-  height: 0px;
-  padding: 0;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-#CoffeeButton img {
-  background-color: #000;
+  color: #666;
   border: 2px solid #666;
   border-radius: 50%;
   width: 20px;
   height: 20px;
+  font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  //overflow: hidden;
-  opacity: 45%;
-  margin-top: 3px;
+  line-height: 1;
+  text-align: center;
+  padding: 0;
 }
 
 #helpContainer {
@@ -106,8 +91,8 @@
     opacity: .75;
     pointer-events: none;
     z-index: 0;
-	  width: 100vw;
-      height: 100vh;
+    width: 100vw;
+    height: 100vh;
   }
 
 </style>
