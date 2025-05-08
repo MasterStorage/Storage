@@ -104,7 +104,7 @@
 <div id="controlsWrapper">
   <div id="controls" onmousedown="startDraggingControls(event)">
   <div id="helpContainer">
-  <button id="CoffeeButton" onclick="openCoffee()"><img src="https://cdn.buymeacoffee.com/favicon.ico" alt="Help" width="16" height="16"></button>
+ /* <button id="CoffeeButton" onclick="openCoffee()"><img src="https://cdn.buymeacoffee.com/favicon.ico" alt="Help" width="16" height="16"></button> */
   <button id="helpButton" onclick="openHelp()">?</button>
   </div>
     <div id="folderInput">
