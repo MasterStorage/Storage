@@ -50,21 +50,6 @@
   padding: 0;
 }
 
-/* #CoffeeButton {
-  background-color: #000;
-  color: #666;
-  border: 2px solid #666;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  line-height: 1;
-  text-align: center;
-  padding: 0;
-} */
-
 #helpContainer {
   padding: 5px 0px 5px 0px;
   display: flex;
@@ -104,8 +89,7 @@
 <div id="controlsWrapper">
   <div id="controls" onmousedown="startDraggingControls(event)">
   <div id="helpContainer">
-  <button id="CoffeeButton" onclick="openCoffee()"><img src="https://cdn.buymeacoffee.com/favicon.ico" alt="Help" width="16" height="16"></button>
-  <button id="helpButton" onclick="openHelp()">?</button>
+    <button id="helpButton" onclick="openHelp()">?</button>
   </div>
     <div id="folderInput">
 	    <div id="blur_01a">
