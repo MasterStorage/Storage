@@ -57,9 +57,9 @@ document.addEventListener('keydown', function(event) {
   window.open('help.html', '_blank');
 }
 
-  function openCoffee() {
+/*  function openCoffee() {
   window.open('https://buymeacoffee.com/diobess', '_blank');
-}
+} */
 
 document.addEventListener('keydown', function(event) {
   if (event.key === "h" || event.key === "H") {
