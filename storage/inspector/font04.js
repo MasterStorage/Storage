@@ -119,7 +119,7 @@
 <div id="controlsWrapper">
   <div id="controls" onmousedown="startDraggingControls(event)">
   <div id="helpContainer">
-   <button id="CoffeeButton" onclick="openCoffee()"><img src="bmac.png" alt="Donate" width="16" height="16"></button>
+   <button id="CoffeeButton" onclick="openCoffee()"><img src="https://raw.githubusercontent.com/MasterStorage/Storage/refs/heads/main/storage/inspector/bmac.png" alt="Donate" width="16" height="16"></button>
     <button id="helpButton" onclick="openHelp()">?</button>
   </div>
     <div id="folderInput">
